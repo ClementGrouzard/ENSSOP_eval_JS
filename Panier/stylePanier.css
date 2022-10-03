@@ -1,0 +1,79 @@
+#body{
+    margin: 0;
+
+}
+
+header{
+    margin: 0;
+    background-color: rgb(56, 56, 61);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+header h2{
+    font-size: 5em;
+    color: rgb(172, 36, 36);
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(black, white);
+ 
+}
+
+
+
+main article{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgb(128, 128, 128);
+    max-width: 70%;
+    min-width: 35vw;
+    gap: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px;
+}
+
+main img{
+    width: 150px;
+    height: 150px;
+
+}
+footer{
+    display: flex;
+    background-color: rgb(172, 36, 36);
+    height: 160px;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+    padding: 25px;
+    flex-wrap: wrap;
+}
+
+footer div{
+    font-size: 2.5em;
+}
+
+footer button{
+    background-color: rgb(131, 199, 28);
+    height: 80px;
+    width: 160px;
+}
+
+footer h3{
+    font-size: 4em;
+}

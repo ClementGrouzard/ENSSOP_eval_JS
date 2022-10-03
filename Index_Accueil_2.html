@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="Styles_Accueil.css">
+    <script src="https://kit.fontawesome.com/3831f62a35.js" crossorigin="anonymous"></script>
+    <title>Accueil</title>
+</head>
+
+<body id="body">
+    <h1>Mon site de vente de clefs USB</h1>
+    <header>
+        <div>
+            <i class="fas fa-align-justify" id="filMob">&nbsp;Filtre</i>
+                <input type="search" name="search" id="search">
+                <i class="fas fa-search" id="loupe"></i>
+            
+            <a href="panier.html"><i class="fas fa-shopping-basket"></i></a>
+        </div>
+        <nav id="nav">
+            <ul>
+
+                <li id="taille">Taille
+                    <form action="POST" id="capacity">
+                    </form>
+                </li>
+
+                <li id="marque">Marque
+                    <form action="POST" id="brand">
+                    </form>
+                </li>
+
+                <li id="couleur">Couleur
+                    <form action="POST" id="color">
+                    </form>
+                </li>
+
+                <input type="button" value="Filtrer" id="filtre">
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="content">
+        </div>
+    </main>
+    <footer>&copy Jason Dupuy, Clément Grouzard, Romain Leclerc, Enzo Pisciotta</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script_Filtres.js"></script>
+</body>
+
+</html>
